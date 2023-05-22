@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Envelope from "./components/Envelope";
+import Stamp from "./components/Stamp";
 
 function App() {
+  const toperson = {
+    name: "Jane Doe",
+    address: "123 Fake Str.",
+    city: "New York, NY 10001",
+  };
+
+  const fromperson = {
+    name: "John Doe",
+    address: "456 Fromfake Str.",
+    city: "Palm Beach, Fl.  33415",
+  };
+  const styles = {
+    display: "flex",
+    justifycontent: "center",
+    alignitems: "center",
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <div className="App">
+        <Envelope {...fromperson} />
+        <Stamp />
+      </div>
+      <div className="stamp">
+        <Envelope {...toperson} />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,12 @@
+.toLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addrlabel-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12px;
+  margin-top: 23px;
+}
