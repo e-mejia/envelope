@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/envelope/static/css/main.476d8381.css",
+    "main.js": "/envelope/static/js/main.23fa805a.js",
+    "static/media/2c-us-stamp.jpg": "/envelope/static/media/2c-us-stamp.55b02711389fd838c5ff.jpg",
+    "index.html": "/envelope/index.html",
+    "main.476d8381.css.map": "/envelope/static/css/main.476d8381.css.map",
+    "main.23fa805a.js.map": "/envelope/static/js/main.23fa805a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.476d8381.css",
+    "static/js/main.23fa805a.js"
+  ]
+}
